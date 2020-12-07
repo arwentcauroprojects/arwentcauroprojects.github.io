@@ -99,6 +99,21 @@
       "ns": "v1__prince__12062020",
       "jhash": "0x5",
       "apiset": "client"
+    },
+    "0x6": {
+      "name": "SPAWN_VEHICLE",
+      "params": [
+        { "name": "vehicle", "type": "char*" },
+        { "name": "position", "type": "vector3" }
+      ],
+      "results": "Vehicle",
+      "resultsDescription":"L'ID du véhicule fraichement spawn.",
+      "description": "Créer un véhicule à l'endroit voulu.",
+      "examples": [],
+      "hash": "0x6",
+      "ns": "v1__prince__12062020",
+      "jhash": "0x6",
+      "apiset": "client"
     }
   }
 }
