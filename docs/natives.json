@@ -104,7 +104,8 @@
       "name": "SPAWN_VEHICLE",
       "params": [
         { "name": "vehicle", "type": "char*" },
-        { "name": "position", "type": "vector3" }
+        { "name": "position", "type": "vector3" },
+        { "name": "heading", "type": "number" }
       ],
       "results": "Vehicle",
       "resultsDescription":"L'ID du véhicule fraichement spawn.",
@@ -113,6 +114,23 @@
       "hash": "0x6",
       "ns": "v1__prince__12062020",
       "jhash": "0x6",
+      "apiset": "client"
+    },
+    "0x7": {
+      "name": "SPAWN_PED",
+      "params": [
+        { "name": "pedType", "type": "number" },
+        { "name": "ped", "type": "char*" },
+        { "name": "position", "type": "vector3" },
+        { "name": "heading", "type": "number" }
+      ],
+      "results": "Ped",
+      "resultsDescription":"L'ID du ped fraichement spawn.",
+      "description": "Créer un ped à l'endroit voulu.",
+      "examples": [],
+      "hash": "0x7",
+      "ns": "v1__prince__12062020",
+      "jhash": "0x7",
       "apiset": "client"
     }
   }
